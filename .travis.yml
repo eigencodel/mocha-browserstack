@@ -1,3 +1,8 @@
+addons:
+  browserstack:
+    username: marcel178
+    access_key:
+        secure: "DagulbN3xqzimva7J5tMfrEhYZezLkhK39XgLic9Oj8ExLRaq7Vr2xTKHVeSrZcwNaaWqJKL63kG6cVj8w2gcDS6O0GNKOnIhUp8SBaM7VkhJRfzLQvcN/NtlRNF0xSpOr/LKBC06Nxjpgrrt19Czzx1OAL/lJn9XEKuHyUcbjdTDQQZ6mkM+/A+B/JqVVaTo5MeKH+x4L8ik9DQmgUzhz94VoIweMXG+vgg88MIA8hb859suivNsm7/xe40C6bkkQLqmvKRfLEo4nh3ntPKZ7mxINGjmU1xMGxPso+o4jPmROJZriV0zZSdpwsLfdc3SL0g+hcQ6raw9RNAXu6GOMWTk1kIszZYQ2zwW6iEPPc6jZOHXJYzVnrjlPdKXfQxvJErudCsp7u+rIsjgjREsTwmCTZ25coj14k8zCf8v8wX1l272xeB8JF2Z9qYbGeY4rKnE/+pVATkaJIvX+vDHGfu8QvbuMPJDBQrxKgsJcn7ekSqIDACc/43W19SQ8cfe82K96DkqUFko6swnVM89k1QZdg08lji1pyGa3Mm9Iii0YFQUO0Znr8Hz9Y1+mjaIhP0mFNvVcVBllLYP8rxAwDkyvZ9IQ3fu4UDNgGvxH1ZX7mhAWXPYob1fjaXAh/X/AjbZuf2KytS0QODkeFgR4Qz79Q+5gj1PLjGR6OCQTA="
 language: node_js
 node_js:
   - "4.1"
