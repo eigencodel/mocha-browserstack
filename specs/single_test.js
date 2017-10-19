@@ -11,7 +11,7 @@ var buildDriver = function(caps) {
     build();
 };
 
-describe('Google\'s Search Functionality for ' + caps.browserName, function() {
+describe('Load Dragon Law Main Page ' + caps.browserName, function() {
   this.timeout(0);
   var driver, bsLocal;
 
