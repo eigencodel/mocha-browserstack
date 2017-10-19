@@ -11,7 +11,7 @@ var buildDriver = function(caps) {
     build();
 };
 
-describe('Load Dragon Law Main Page ' + caps.browserName, function() {
+describe('Google\'s Search Functionality for ' + caps.browserName, function() {
   this.timeout(0);
   var driver, bsLocal;
 
@@ -21,11 +21,15 @@ describe('Load Dragon Law Main Page ' + caps.browserName, function() {
   });
 
   it('can find search results', function (done) {
-    driver.get('https://app.dragonlaw.io').then(function() {
+    driver.get('http://www.google.com/ncr').then(function() {
+      driver.findElement(webdriver.By.name('q')).sendKeys('BrowserStack').then(function() {
+        driver.findElement(webdriver.By.name('btnG')).click().then(function() {
           driver.getTitle().then(function(title) {
-            assert(title.match(/Login - Dragon Law/i) != null);
+            assert(title.match(/BrowserStack - Google Search/i) != null);
             done();
           });
+        });
+      });
     });
   });
 
